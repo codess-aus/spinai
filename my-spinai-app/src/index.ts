@@ -1,8 +1,30 @@
-import { startServer } from "./webhook-server";
+import { startServer } from # Create and checkout a new branch
+git checkout -b azure-openai-config# Create and checkout a new branch
+git checkout -b azure-openai-config# Create and checkout a new branch
+git checkout -b azure-openai-config# Create and checkout a new branch
+git checkout -b azure-openai-config# Add all modified files
+git add /workspaces/spinai/my-spinai-app/src/index.ts
+git add /workspaces/spinai/.github/workflows/deploy.yml
+git add /workspaces/spinai/.devcontainer/devcontainer.json
+
+# Commit the changes
+git commit -m "Configure Azure OpenAI environment variables and secrets handling"# Add all modified files
+git add /workspaces/spinai/my-spinai-app/src/index.ts
+git add /workspaces/spinai/.github/workflows/deploy.yml
+git add /workspaces/spinai/.devcontainer/devcontainer.json
+
+# Commit the changes
+git commit -m "Configure Azure OpenAI environment variables and secrets handling"# Add all modified files
+git add /workspaces/spinai/my-spinai-app/src/index.ts
+git add /workspaces/spinai/.github/workflows/deploy.yml
+git add /workspaces/spinai/.devcontainer/devcontainer.json
+
+# Commit the changes
+git commit -m "Configure Azure OpenAI environment variables and secrets handling""./webhook-server";
 
 if (process.env.NODE_ENV !== "production") {
   // Load dotenv only in development mode
-  const dotenv = require("dotenv");
+  const dotenv = await import("dotenv");
   dotenv.config();
 }
 
